@@ -16,6 +16,8 @@
     color: #000;
     gap: -3px;
     line-height: 0.9;
+    padding: 20px;
+    padding-left: 50px;
 }
 
 .linha1 {
@@ -25,11 +27,11 @@
 .linha2 {
     display: block;
     margin-left: 20px;
-    /* desloca pra direita */
 }
 
 .frases {
     padding-left: 18px;
+    margin: 20px;
     color: #D0768B;
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
@@ -39,7 +41,6 @@
 
 .frase {
     position: relative;
-    padding-left: 16px;
     padding-left: 18px;
     color: #D0768B;
     font-family: 'Russo One', sans-serif;
@@ -59,31 +60,47 @@
     height: 100%;
     background: black;
     border-radius: 10px;
-    /* só a barra fica arredondada */
 }
 
 .escrita {
-    display: flex;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 500px;
+}
+
+.escrita div {
+    padding: 0 6px;
+}
+
+.escrita .frases {
+    grid-column: 1 / 3;
+    width: 0%;
+    margin-top: 10px;
+    padding-left: 0;
 }
 
 .textos {
-    display: flex;
+    display: grid;
+    grid-template-columns: 700px 500px 360px;
+    gap: 20px;
+    padding: 16px 30px;
+    align-items: start;
     font-family: 'Livvic', sans-serif;
-    max-width: 250px;
     margin-bottom: 12px;
-    padding: 16px;
 }
 
 .textos2 {
     font-family: 'Livvic', sans-serif;
-    min-width: 280px;
+    min-width: 340px;
     margin-bottom: 12px;
 }
 
 .foto {
     align-items: center;
-    max-width: 320px;
+    max-width: 1000px;
+    margin-top: -360px;
+    margin-left: -200px;
 }
 
 .coluna {
@@ -92,4 +109,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: -350px;
+     margin-left: -180px;
 }
