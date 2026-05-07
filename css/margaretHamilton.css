@@ -8,40 +8,6 @@
     background-color: #FFF4E6;
     width: 100%;
 }
-.voltar{
-    position: fixed;
-    top: 20px;
-    left: 20px;
-
-    width: 60px;
-    height: 60px;
-
-    border: none;
-    border-radius: 50%;
-
-    background-color: transparent; /* remove fundo branco */
-    
-    padding: 0;
-    overflow: hidden;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    cursor: pointer;
-}
-
-/* imagem do botão */
-.voltar img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    border-radius: 50%; /* deixa a imagem redonda */
-    
-    display: block;
-    background: transparent;
-}
 
 .titulo {
     font-family: 'Carattere';
@@ -133,8 +99,8 @@
 .foto {
     align-items: center;
     max-width: 1000px;
-    margin-top: -360px;
-    margin-left: -200px;
+    margin-top: -320px;
+    margin-left: -230px;
 }
 
 .coluna {
